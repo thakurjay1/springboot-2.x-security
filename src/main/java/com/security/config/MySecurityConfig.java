@@ -5,5 +5,7 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 
 @SuppressWarnings("deprecation")
 public class MySecurityConfig extends WebSecurityConfigurerAdapter{
-
+   static {
+	   System.out.println("");
+   }
 }
